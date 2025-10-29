@@ -69,6 +69,9 @@
     justify-content: space-between;
 }
 
+.wild__left{
+    width: 400px;
+}
 
 .wild__wrapper{
     display: flex;
@@ -84,6 +87,7 @@
 .wild__list__btn{
     margin: 0 12px 0 0;
     background-color: #9de03f;
+    border: none;
 }
 .wild__list__btn2{
     background-color: #fff;
