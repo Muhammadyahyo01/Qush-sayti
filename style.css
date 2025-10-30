@@ -20,7 +20,8 @@
     overflow: hidden;
     width: 1520px;
     height: 740px;
-    background-color: #0b0912;
+    background-color: #0b1902;
+    margin: 0 auto;
 }
 
 .btn {
@@ -68,9 +69,11 @@
     display: flex;
     justify-content: space-between;
 }
-
+.wild{
+    padding-bottom: 180px;
+}
 .wild__left{
-    width: 400px;
+    width: 470px;
 }
 
 .wild__wrapper{
@@ -83,6 +86,8 @@
 }
 .wild__list__p{
     padding: 32px 0 40px 0;
+    font-size: 20px;
+    color: #9de03f;
 }
 .wild__list__btn{
     margin: 0 12px 0 0;
@@ -92,4 +97,113 @@
 .wild__list__btn2{
     background-color: #fff;
     border: 2px solid #9de03f;
+}
+.card {
+    position: relative;
+    width: 280px;
+    height: 380px;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3sж
+}
+.wild__item{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: #a6ff3f;
+    border-radius: 10px;
+}
+.wild__h3{
+    font-size: 40px;
+}
+.wild__span{
+    color: #9de03f;
+}
+
+.way{
+    padding-bottom: 160px;
+}
+.way__txt{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.way__h1{
+    font-size: 70px;
+    padding-bottom: 32px;
+}
+.way__span{
+    color: #9de03f;
+}
+.way__p{
+    font-size: 17px;
+    padding-bottom: 40px;
+}
+.way__btn{
+    background-color: #fff;
+    border: 2px solid #9de03f;
+}
+
+
+.built{
+    background-image: url("./Built.png");
+    background-repeat: no-repeat;
+    width: 1520px;
+    height: 800px;
+    margin: 0 auto;
+}
+.built__wrapper{
+    padding-top: 320px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 315px;
+}
+.built__h1{
+    color: #9de03f;
+    font-size: 110px;
+}
+.built__span{
+    color: #fff;
+}
+.built__img{
+    padding-top: 130px;
+}
+
+.footer{
+    background-color: #0B1902;
+}
+.footer__txt{
+    padding: 65px 55px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 300px;
+}
+.footer__a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #9de03f;
+}
+.part{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.part2{
+    width: 150px;
+}
+
+.xplore{
+    font-size: 320px;
+    color: #9de03f;
+    text-align: center;
+    font-weight: 900;
 }
