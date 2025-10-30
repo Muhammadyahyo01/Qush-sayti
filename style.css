@@ -18,7 +18,6 @@
 
 .header {
     overflow: hidden;
-    width: 1520px;
     height: 740px;
     background-color: #0b1902;
     margin: 0 auto;
@@ -54,7 +53,7 @@
     width: 500px;
 }
 
-.header__img {
+.header__img{ 
     width: 650px;
     height: 800px;
 
@@ -196,6 +195,14 @@
     display: flex;
     justify-content: center;
     gap: 60px;
+    font-family: font/secondary-family;
+font-weight: 400;
+font-style: Regular;
+font-size: size/2;
+line-height: 130%;
+letter-spacing: 0%;
+text-transform: uppercase;
+
 }
 .part2{
     width: 150px;
@@ -204,6 +211,5 @@
 .xplore{
     font-size: 320px;
     color: #9de03f;
-    text-align: center;
     font-weight: 900;
 }
